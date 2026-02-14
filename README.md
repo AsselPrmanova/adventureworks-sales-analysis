@@ -1,9 +1,9 @@
-# AdventureWorks Sales Analysis
+# Northwind Sales Analysis
 
-Data analysis project using SQL and Python on the AdventureWorks sample database.
+Data analysis project using SQL and Python on the Northwind sample database.
 
 ## Описание проекта
-Анализ продаж на базе данных AdventureWorks.
+Анализ продаж на базе данных Northwind.
 Проект выполнен в учебных целях для демонстрации навыков SQL и Python.
 
 ## Используемые инструменты
