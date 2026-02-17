@@ -3,19 +3,19 @@
 Data analysis project using SQL and Python on the Northwind sample database.
 
 ## Описание проекта
-Анализ продаж на базе данных Northwind.
-Проект выполнен в учебных целях для демонстрации навыков SQL и Python.
+Sales analysis based on the Northwind database. 
+The project was completed for educational purposes to demonstrate SQL and Python skills.
 
-## Используемые инструменты
-- SQL (CTE, оконные функции, подзапросы)
-- Python (pandas, matplotlib)
-- AdventureWorks database
+## Tools Used
+SQL (CTEs, window functions, subqueries)
+Python (pandas, matplotlib)
+- Northwind database
 
-## Основные задачи
-- Анализ продаж по месяцам и регионам
-- Топ продуктов и категорий
-- Накопительные итоги и сравнение периодов
+## Key Objectives
+Sales analysis by month and region
+Top products and categories
+Cumulative totals and period-over-period comparison
 
-## Выводы
-- Продажи имеют сезонность
-- Несколько категорий дают основную выручку
+## Conclusions
+Sales show seasonality
+A few categories generate the majority of revenue
