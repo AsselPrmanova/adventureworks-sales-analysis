@@ -33,3 +33,9 @@ JOIN order_details od ON o.order_id = od.order_id
 GROUP BY EXTRACT(YEAR FROM o.order_date),
 		EXTRACT(QUARTER FROM o.order_date) 
 ORDER BY year asc, Quarter asc;
+
+--- Average Revenue per Day
+
+SELECT SUM(od.unit_price * od.quantity) / COUNT(DISTINCT CAST(o.order_date AS DATE)) AS AvgRevenuePerDay
+FROM order_details od
+JOIN orders o ON od.order_id = o.order_id ;
