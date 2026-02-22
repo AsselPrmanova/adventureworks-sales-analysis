@@ -21,7 +21,7 @@ Using PostgreSQL:
 - `top_5_countries.sql` — Top 5 countries by total sales
 - `most_expensive_products.sql` — Most expensive products per category
 - `top_3_best_selling_by_category.sql` — Top 3 best-selling products per category
-- 'KPI employees.sql' - Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time /Late) by Employee
+- `KPI employees.sql` —  Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time /Late) by Employee
 
 ## Conclusions
 Sales show seasonality
