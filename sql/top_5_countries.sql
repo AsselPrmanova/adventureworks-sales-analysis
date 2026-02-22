@@ -14,3 +14,16 @@ JOIN (
 GROUP BY o.ship_country
 ORDER BY total_sales DESC
 LIMIT 5;
+
+--AVG Per customer
+SELECT
+    ROUND(
+        (SUM(od.unit_price * od.quantity)::numeric) 
+        / COUNT(DISTINCT c.customer_id), 2
+    ) AS avg_sales_per_customer
+FROM order_details od
+JOIN orders o ON o.order_id = od.order_id
+JOIN customers c ON c.customer_id = o.customer_id;
+
+
+
