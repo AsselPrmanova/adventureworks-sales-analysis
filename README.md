@@ -14,11 +14,14 @@ Python (pandas, matplotlib)
 
 ## Key Objectives
 
+Using PostgreSQL:
+
 - `avg_selling_price.sql` — Calculates average selling price per product per category
 - `top_10_products.sql` — Lists top 10 products by total sales
 - `top_5_countries.sql` — Top 5 countries by total sales
 - `most_expensive_products.sql` — Most expensive products per category
 - `top_3_best_selling_by_category.sql` — Top 3 best-selling products per category
+- `KPI_employees.sql` —  Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time/Late) 
 
 ## Conclusions
 Sales show seasonality
