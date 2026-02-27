@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Northwind Sales Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .section {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .powerbi-screens img {
+            max-width: 100%;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Northwind Sales Analysis</h1>
+
+    <div class="section">
+        <h2>Project Description</h2>
+        <p>This project focuses on sales analysis using the Northwind database. It demonstrates practical skills in SQL and Python for data analysis. The analysis includes complex SQL queries (CTEs, window functions, subqueries) and Python libraries such as pandas and matplotlib for data processing and visualization.</p>
+        <p>The project explores sales performance across different time periods and regions, identifies top-performing products and categories, and analyzes trends such as seasonality and cumulative revenue dynamics.</p>
+    </div>
+
+    <div class="section">
+        <h2>Tools Used</h2>
+        <ul>
+            <li>
+                SQL (CTEs, window functions, subqueries)
+                <ul>
+                    <li><code>avg_selling_price.sql</code> — Calculates average selling price per product per category</li>
+                    <li><code>top_10_products.sql</code> — Lists top 10 products by total sales</li>
+                    <li><code>top_5_countries.sql</code> — Top 5 countries by total sales</li>
+                    <li><code>most_expensive_products.sql</code> — Most expensive products per category</li>
+                    <li><code>top_3_best_selling_by_category.sql</code> — Top 3 best-selling products per category</li>
+                    <li><code>KPI_employees.sql</code> — Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time/Late)</li>
+                </ul>
+            </li>
+            <li>Python (pandas, matplotlib)</li>
+            <li>Power BI</li>
+        </ul>
+    </div>
+
+    <div class="section powerbi-screens">
+        <h2>Power BI Visualizations</h2>
+        <!-- Замените пути src на реальные скриншоты -->
+        <img src="PowerBI/northwind_cover.png" alt="Title">
+      
+    </div>
+
+    <div class="section">
+        <h2>Conclusions</h2>
+        <ul>
+            <li>Sales show seasonality</li>
+            <li>A few categories generate the majority of revenue</li>
+        </ul>
+    </div>
+</body>
+</html>
