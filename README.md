@@ -9,7 +9,8 @@ The project explores sales performance across different time periods and regions
 
 ## Tools Used
 SQL (CTEs, window functions, subqueries)
-Python (pandas, matplotlib)
+Python (pandas, matplotlib,seaborn)
+Power BI - for interactive dashboards.
 - Northwind database
 
 ## Key Objectives
@@ -21,8 +22,11 @@ Using PostgreSQL:
 - `top_5_countries.sql` — Top 5 countries by total sales
 - `most_expensive_products.sql` — Most expensive products per category
 - `top_3_best_selling_by_category.sql` — Top 3 best-selling products per category
-- `KPI_employees.sql` —  Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time/Late) 
+- `KPI_employees.sql` —  Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time/Late)
 
-## Conclusions
-Sales show seasonality
-A few categories generate the majority of revenue
+Using Python:
+
+- Sales Analysis
+- Employee KPIs
+
+
