@@ -41,14 +41,27 @@
             border-radius: 5px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
-
         .tools-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #34495e;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #34495e;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+        }
+        .analysis-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -63,38 +76,44 @@
     <div class="section">
         <h2>Tools Used</h2>
 
-                <p class="tools-title">SQL (CTEs, window functions, subqueries)</p>
-                <ul>
-                    <li><code>avg_selling_price.sql</code> — Calculates average selling price per product per category</li>
-                    <li><code>top_10_products.sql</code> — Lists top 10 products by total sales</li>
-                    <li><code>top_5_countries.sql</code> — Top 5 countries by total sales</li>
-                    <li><code>most_expensive_products.sql</code> — Most expensive products per category</li>
-                    <li><code>top_3_best_selling_by_category.sql</code> — Top 3 best-selling products per category</li>
-                    <li><code>KPI_employees.sql</code> — Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time/Late)</li>
-                </ul>
-         
-            <p class="tools-title">Python (pandas, matplotlib)</p>
-         
-    
+        <p class="tools-title">SQL (CTEs, window functions, subqueries)</p>
+        <ul>
+            <li><code>avg_selling_price.sql</code> — Calculates average selling price per product per category</li>
+            <li><code>top_10_products.sql</code> — Lists top 10 products by total sales</li>
+            <li><code>top_5_countries.sql</code> — Top 5 countries by total sales</li>
+            <li><code>most_expensive_products.sql</code> — Most expensive products per category</li>
+            <li><code>top_3_best_selling_by_category.sql</code> — Top 3 best-selling products per category</li>
+            <li><code>KPI_employees.sql</code> — Employee Sales KPI Ranking, Average Order Processing Time, Order Delivery Status (On-Time/Late)</li>
+        </ul>
+
+        <p class="tools-title">Python (pandas, matplotlib)</p>
+        <ul>
+            <li>Analyses visualization saved as HTML</li>
+        </ul>
     </div>
 
+    <!-- Python Analyses -->
+    <div class="section">
+        <div class="analysis-title">Sales Analysis by Year and Month Based</div>
+        <iframe src="Python/Sales_Analysis_by_Year_and_Month_Based.html"></iframe>
+    </div>
+
+    <div class="section">
+        <div class="analysis-title">Employees KPI</div>
+        <iframe src="Python/Employees_KPI.html"></iframe>
+    </div>
+
+    <!-- Power BI Visualizations -->
     <div class="section powerbi-screens">
         <h2>Power BI Visualizations</h2>
-        <!-- Замените пути src на реальные скриншоты -->
         <img src="PowerBI/northwind_cover.png" alt="Cover Page">
-          <img src="PowerBI/northwind_sales.png" alt="Sales">
+        <img src="PowerBI/northwind_sales.png" alt="Sales">
         <img src="PowerBI/northwind_customers.png" alt="Customers">
-           <img src="PowerBI/northwind_kpi_employees.png" alt="Customers">
-      <p>
-        <a href="PowerBI/Northwind_Sales_Dashboard.pbix" download>Download PBIX File</a>
-    </p>
+        <img src="PowerBI/northwind_kpi_employees.png" alt="KPI Employees">
+        <p>
+            <a href="PowerBI/Northwind_Sales_Dashboard.pbix" download>Download PBIX File</a>
+        </p>
     </div>
 
-    
 </body>
 </html>
-
-
-
-
-
